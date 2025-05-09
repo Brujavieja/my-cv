@@ -1,0 +1,163 @@
+/* Tekstit */
+.slogan, .otsikot {
+    font-weight: 300 !important;
+}
+
+.listat {
+    list-style-type: none;
+}
+
+/* Kuvat */
+.jasmin-potretti {
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.jasmin-nelio {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.proj1 {
+    background: url("./images/placeholder-gray.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.proj2 {
+    background: url("./images/proj2-mondrian.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.proj3 {
+    background: url("./images/proj3-noppapeli.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Karuselli */
+.carousel-rounded {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: brightness(0) saturate(100%) invert(16%) sepia(0%) saturate(0%) hue-rotate(328deg) brightness(95%) contrast(93%);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #9a9a9a; 
+    opacity: 1;
+}
+  
+.carousel-indicators .active {
+    background-color: #6a6a6a; 
+}
+
+/* Painikkeet ja napit */
+.btn-sm {
+    --bs-btn-padding-y: 5px;
+    --bs-btn-padding-x: 15px;
+    --bs-btn-font-size: 0.875rem;
+    --bs-btn-border-radius: var(--bs-border-radius-sm);
+}
+
+.near-button {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.medium-button {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.long-button {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+#scroll-to-top-btn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 99;
+    display: none; /* piilotettu aluksi */
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0;
+    transition: opacity 0.4s;
+    background-color: #9a9a9a !important;
+    border-color: #9a9a9a !important;
+}
+
+/* Palautteiden muotoilut */
+.palaute-lupaus {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3%;
+}
+
+.palaute-selkeakehys {
+    width: 350px;
+    height: 350px;
+    border-radius: 2%;
+    border: 1px solid darkgray;
+}
+
+.palaute-apuna {
+    width: 350px;
+    height: 350px;
+}
+
+.palaute-oranssi {
+    max-width: 400px;
+    width: 150%;
+    height: auto;
+}
+
+.palaute-luovaa {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+}
+
+/* Portfolion muotoilut */
+.card {
+    position: relative; 
+}
+
+.ribbon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffffff;
+    color: #545454;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
